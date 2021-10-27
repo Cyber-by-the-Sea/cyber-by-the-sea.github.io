@@ -1,0 +1,65 @@
+baseURL = 'https://cyberbythesea.com/'
+languageCode = 'en-us'
+title = 'Cyber by the Sea'
+theme = 'hugo-business-frontpage-theme'
+[params.footer]
+    copyright = "Cyber by the Sea LLC"
+[params]
+    author = "devtty1er"
+    description = "Business Frontpage - A business home page starter template for Bootstrap 4 featuring marketing boxes and a full width image header"
+    [params.navbar]
+        # name = "Cyber by the Sea"
+        url = "#"
+
+        [[params.navbar.nav]]
+        current = true
+        name = "Home"
+        url = "#"
+        #[[params.navbar.nav]]
+        #name = "About"
+        #url = "#"
+        #[[params.navbar.nav]]
+        #name = "Services"
+        #url = "#"
+        #[[params.navbar.nav]]
+        #name = "Contact"
+        #url = "#"
+    [params.header]
+        name = "Cyber by the Sea"
+        #tagline = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non possimus ab labore provident mollitia. Id assumenda voluptate earum corporis facere quibusdam quisquam iste ipsa cumque unde nisi, totam quas ipsam."
+    [params.summary]
+        url = "#"
+
+        [params.summary.description]
+
+        #[[params.summary.description.items]]
+        #description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!"
+        [[params.summary.description.items]]
+        description = "We provide software security insights and solutions to forward-engineering teams, red teams, and security-focused organizations."
+
+
+        [params.summary.contact]
+        email = ""
+    [params.projects]
+
+        [[params.projects.sections]]
+        # title = "Section 1"
+
+        [[params.projects.sections.rows]]
+        # title = "Section 1, Row 1"
+
+        [[params.projects.sections.rows.items]]
+        title = "Software Testing Training"
+        description = "Focus on writing secure software using  software testing best practices"
+        url = "#"
+        # image = "image.png"
+        [[params.projects.sections.rows.items]]
+        title = "Secure open-source dependencies"
+        description = "Contribute to open-source fuzz harnessing and benefit from upstream patches"
+        url = "#"
+        # image = "image.png"
+        [[params.projects.sections.rows.items]]
+        title = "Third party dependency audit"
+        description = "Address attack surfaces introduced by third party dependencies. Reverse engineering and vulnerability research consulting."
+        url = "#"
+        # image = "image.png"
