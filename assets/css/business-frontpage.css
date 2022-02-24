@@ -6,3 +6,14 @@
 body {
   padding-top: 56px;
 }
+.customheader {
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 15rem;
+}
+
+.logo {
+    width: 20rem;
+    margin-left: 20px;
+}
