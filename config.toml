@@ -39,7 +39,8 @@ theme = 'hugo-business-frontpage-theme'
 
 
         [params.summary.contact]
-        email = ""
+        email = "cyberbythesea@protonmail.com"
+        phone = "(978) 381-3988"
     [params.projects]
 
         [[params.projects.sections]]
