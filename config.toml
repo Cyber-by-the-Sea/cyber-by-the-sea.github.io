@@ -6,7 +6,7 @@ theme = 'hugo-business-frontpage-theme'
     copyright = "Cyber by the Sea LLC"
 [params]
     author = "devtty1er"
-    description = "Business Frontpage - A business home page starter template for Bootstrap 4 featuring marketing boxes and a full width image header"
+    #description = "Business Frontpage - A business home page starter template for Bootstrap 4 featuring marketing boxes and a full width image header"
     [params.navbar]
         # name = "Cyber by the Sea"
         url = "#"
@@ -39,8 +39,7 @@ theme = 'hugo-business-frontpage-theme'
 
 
         [params.summary.contact]
-        email = "cyberbythesea@protonmail.com"
-        phone = "(978) 381-3988"
+        email = ""
     [params.projects]
 
         [[params.projects.sections]]
@@ -51,16 +50,16 @@ theme = 'hugo-business-frontpage-theme'
 
         [[params.projects.sections.rows.items]]
         title = "Software Testing Training"
-        description = "Focus on writing secure software using  software testing best practices"
+        description = "Learn how to secure software using software testing best practices"
+        url = "#training"
+        # image = "image.png"
+        [[params.projects.sections.rows.items]]
+        title = "Managed Fuzzing Campaigns"
+        description = "Custom fuzzing solutions at any level: open-source, cloud, privately-hosted, and on-premises"
         url = "#"
         # image = "image.png"
         [[params.projects.sections.rows.items]]
-        title = "Secure open-source dependencies"
-        description = "Contribute to open-source fuzz harnessing and benefit from upstream patches"
-        url = "#"
-        # image = "image.png"
-        [[params.projects.sections.rows.items]]
-        title = "Third party dependency audit"
-        description = "Address attack surfaces introduced by third party dependencies. Reverse engineering and vulnerability research consulting."
+        title = "Third-Party Dependency Audit"
+        description = "Understand and address attack surfaces introduced by third party dependencies"
         url = "#"
         # image = "image.png"
