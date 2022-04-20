@@ -15,10 +15,8 @@
           <hr>
           {{ with .Site.Params.summary.contact }}
           <address>
-            <abbr title="Phone">P:</abbr>
             {{ .phone }}
             <br>
-            <abbr title="Email">E:</abbr>
             <a href="mailto:{{ .email }}">{{ .email }}</a>
           </address>
           {{ end }}
