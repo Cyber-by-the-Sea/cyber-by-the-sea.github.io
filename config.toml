@@ -39,7 +39,7 @@ theme = 'hugo-business-frontpage-theme'
 
 
         [params.summary.contact]
-        email = "cyberbythesea@protonmail.com"
+        email = "Hardcoded in theme"
         phone = "(978) 381-3988"
     [params.projects]
 
