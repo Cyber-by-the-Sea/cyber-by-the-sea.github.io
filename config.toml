@@ -15,6 +15,9 @@ theme = 'hugo-business-frontpage-theme'
         current = true
         name = "Home"
         url = "#"
+        [[params.navbar.nav]]
+        name = "Blog"
+        url = "/blog"
         #[[params.navbar.nav]]
         #name = "About"
         #url = "#"
