@@ -53,14 +53,14 @@ theme = 'hugo-business-frontpage-theme'
         title = "Software Testing Training"
         description = "Learn how to secure software using software testing best practices"
         url = "#training"
-        image = "pexels-thisisengineering-3861943.jpg"
+        image = "pexels-thisisengineering-3861943.webp"
         [[params.projects.sections.rows.items]]
         title = "Managed Fuzzing Campaigns"
         description = "Custom fuzzing solutions at any level: open-source, cloud, privately-hosted, and on-premises"
         url = "#"
-        image = "pexels-rdne-stock-project-7947663.jpg"
+        image = "pexels-rdne-stock-project-7947663.webp"
         [[params.projects.sections.rows.items]]
         title = "Third-Party Dependency Audit"
         description = "Understand and address attack surfaces introduced by third party dependencies"
         url = "#"
-        image = "pexels-cottonbro-studio-5474294.jpg"
+        image = "pexels-cottonbro-studio-5474294.webp"
