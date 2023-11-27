@@ -40,7 +40,7 @@ theme = 'hugo-business-frontpage-theme'
 
         [params.summary.contact]
         email = "Hardcoded in theme"
-        phone = "(978) 381-3988"
+        phone = ""
     [params.projects]
 
         [[params.projects.sections]]
@@ -53,14 +53,14 @@ theme = 'hugo-business-frontpage-theme'
         title = "Software Testing Training"
         description = "Learn how to secure software using software testing best practices"
         url = "#training"
-        # image = "image.png"
+        image = "pexels-thisisengineering-3861943.jpg"
         [[params.projects.sections.rows.items]]
         title = "Managed Fuzzing Campaigns"
         description = "Custom fuzzing solutions at any level: open-source, cloud, privately-hosted, and on-premises"
         url = "#"
-        # image = "image.png"
+        image = "pexels-rdne-stock-project-7947663.jpg"
         [[params.projects.sections.rows.items]]
         title = "Third-Party Dependency Audit"
         description = "Understand and address attack surfaces introduced by third party dependencies"
         url = "#"
-        # image = "image.png"
+        image = "pexels-cottonbro-studio-5474294.jpg"
