@@ -6,7 +6,7 @@ theme = 'hugo-business-frontpage-theme'
     copyright = "Cyber by the Sea LLC"
 [params]
     author = "devtty1er"
-    #description = "Business Frontpage - A business home page starter template for Bootstrap 4 featuring marketing boxes and a full width image header"
+    description = "Cyber by the Sea is a boutique software testing consultancy"
     [params.navbar]
         # name = "Cyber by the Sea"
         url = "#"
